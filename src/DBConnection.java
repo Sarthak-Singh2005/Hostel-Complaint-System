@@ -5,7 +5,7 @@ import java.sql.SQLException;
 public class DBConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/hostel?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "Arvind@2005"; // change this
+    private static final String PASSWORD = "YOUR_PASSWORD"; // change this
 
     static {
         try {
